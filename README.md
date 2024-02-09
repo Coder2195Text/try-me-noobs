@@ -8,7 +8,7 @@
    - [Tampermonkey for Opera/OperaGX](https://addons.opera.com/en-gb/extensions/details/tampermonkey-beta/)
 
 2. **Install the Script**:
-   [Click Here and Press Install](rigging.user.js?raw=True).
+   [Click Here and Press Install](https://github.com/Coder2195Text/try-me-noobs/raw/main/rigging.user.js).
 
 3. **Enable the Script**:
    Enable the script by clicking the switch next to the script name in the Tampermonkey Dashboard.
