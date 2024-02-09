@@ -17,7 +17,7 @@ window.onload = (async function() {
     document.getElementById("PDI_answer59610773").click();
  await new Promise(resolve => setTimeout(resolve, 300));
 document.getElementById("pd-vote-button13311823").click();
- await new Promise(resolve => setTimeout(resolve, 1700));
+ await new Promise(resolve => setTimeout(resolve, 1000));
 window.location.reload();
 
 })();
