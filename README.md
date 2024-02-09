@@ -1,5 +1,7 @@
 # try-me-noobs
 
+If it says you already voted, switch to a good vpn and continue, then switch to another region after that, then switch back to old ip and repeat.
+
 1. **Install Tampermonkey**:
    If you haven't already, you need to install the Tampermonkey browser extension. You can find it for various browsers:
    - [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
