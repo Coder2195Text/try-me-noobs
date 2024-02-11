@@ -8,7 +8,7 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=google.com
 // @downloadURL  https://github.com/Coder2195Text/try-me-noobs/raw/main/rigging.user.js
 // @updateURL    https://github.com/Coder2195Text/try-me-noobs/raw/main/rigging.user.js
-// @grant        none
+// @grant        GM_notification
 // ==/UserScript==
 
 window.onload = (async function() {
@@ -18,6 +18,9 @@ window.onload = (async function() {
  await new Promise(resolve => setTimeout(resolve, Math.random()*1000+500));
 document.getElementById("pd-vote-button13311823").click();
  await new Promise(resolve => setTimeout(resolve, Math.random()*1500+1500));
+    if (document.getElementById("question-top-13311823")?.innerText.includes("counted")){
+        await new Promise(resolve => setTimeout(resolve, 60000));
+}
 window.location.reload();
 
 })();
