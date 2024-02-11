@@ -17,10 +17,10 @@ window.onload = (async function() {
     document.getElementById("PDI_answer59610773").click();
  await new Promise(resolve => setTimeout(resolve, Math.random()*1000+500));
 document.getElementById("pd-vote-button13311823").click();
- await new Promise(resolve => setTimeout(resolve, Math.random()*1500+1500));
+ 
     if (document.getElementById("question-top-13311823")?.innerText.includes("counted")){
         await new Promise(resolve => setTimeout(resolve, 60000));
-}
+} else await new Promise(resolve => setTimeout(resolve, Math.random()*3000+2000));
 window.location.reload();
 
 })();
