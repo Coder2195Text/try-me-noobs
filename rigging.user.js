@@ -13,11 +13,11 @@
 
 window.onload = (async function() {
     'use strict';
-     await new Promise(resolve => setTimeout(resolve, 3000));
+     await new Promise(resolve => setTimeout(resolve, Math.random()*2+1500));
     document.getElementById("PDI_answer59610773").click();
- await new Promise(resolve => setTimeout(resolve, 2000));
+ await new Promise(resolve => setTimeout(resolve, Math.random()*1500));
 document.getElementById("pd-vote-button13311823").click();
- await new Promise(resolve => setTimeout(resolve, 2000));
+ await new Promise(resolve => setTimeout(resolve, Math.random()*1000+1000));
 window.location.reload();
 
 })();
